@@ -6,9 +6,12 @@
     <meta name="description" content="{{ metadata.description }}" />
     <meta name="generator" content="{{ eleventy.generator }}" />
     <title>{{ metadata.title }}</title>
-    <link rel="stylesheet" href="{{ '/site.css' | url }}" />
+    <link rel="stylesheet" href="{{ 'assets/css/main.css' | url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body style="font-family: 'Nunito', sans-serif;">
     {{ content | safe }}
   </body>
 </html>

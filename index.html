@@ -1,11 +1,11 @@
-<main>
+<main style="margin: 20px;">
   <div>
     <a href="{{ '/' | url }}"> Home </a>
   </div>
   <h2>Yashasva Paras</h2>
   <ul>
     {%- for post in collections.posts -%}
-      <li><a href = "{{ post.url | url}}">{{ post.data.title }}</a></li>
+      <li><a href = "{{ post.url | url}}" style="color: black;">{{ post.data.title }}</a></li>
     {%- endfor -%}
     </ul>
 </main>
