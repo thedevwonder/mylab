@@ -8,4 +8,9 @@ Such a many-to-many relation problem also requires flexibility in defining relat
 
 ### Using Graphs
 
-Using a graph to model our data 
+GitHub in it's enterprise version offers user-defined roles. Any custom role/permission/relation is difficult to model in restrictiveness of a relational model.
+However, modelling our data as graph gives us much more flexibility in defining more relations between our entities.
+During my early stages of working in a startup as a software dev, I was given a similar task of assigning roles or permission to users.
+
+A graph model has a separate table for vertices and a separate table for edges.
+ 
